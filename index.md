@@ -10,6 +10,8 @@ Nace como producto del desarrollo del proyecto _Generación y Control de Conteni
 #### Demo del funcionamiento del TDAxis
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iqZA_SVW4X4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+El Demo se puede [descargar](https://github.com/TDAxis/TDAxis/releases) en los assets del pre-release "AL Compatible". 
+
 #### A continuación se presentan links a la documentación del proyecto.
 * [Notion](./notion.html).
 * [YouTube](./youtube.html).
