@@ -8,7 +8,7 @@ TDAxis es un módulo de TouchDesigner que permite conectarlo a Axis Neuron Y Abl
 Nace como producto del desarrollo del proyecto _Generación y Control de Contenido Audiovisual Utilizando TouchDesigner, Ableton Live y los movimientos del cuerpo a través del Perception Neuron_ realizado por [Matías Macías Gómez](https://github.com/Matmac945) y [Simón Pineda Agudelo](https://github.com/skailuxspa) para optar al título de Ingenieros en Diseño de Entretenimiento Digital en la Universidad Pontificia Bolivariana.
 
 #### Demo del funcionamiento del TDAxis
-[Demo](https://www.youtube.com/embed/iqZA_SVW4X4)
+https://www.youtube.com/embed/iqZA_SVW4X4
 
 #### A Continuación se presentan links a la documentación del proyecto.
 * [Notion](./notion.html).
