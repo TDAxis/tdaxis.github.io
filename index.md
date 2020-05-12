@@ -15,6 +15,8 @@ Nace como producto del desarrollo del proyecto _Generación y Control de Conteni
 - Magnitud de la velocidad del pie derecho controla el volumen del bajo.
 - Rotación de la cabeza controla la rotación de la esfera.
 - Distancia entre los pies controla el nivel del envio de reverb del beat.
+
+
 El Demo se puede [descargar](https://github.com/TDAxis/TDAxis/releases) en los assets del pre-release "AL Compatible". 
 
 #### A continuación se presentan links a la documentación del proyecto.
