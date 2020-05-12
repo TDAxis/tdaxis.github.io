@@ -17,7 +17,7 @@ Nace como producto del desarrollo del proyecto _Generación y Control de Conteni
 - Distancia entre los pies controla el nivel del envio de reverb del beat.
 
 
-El Demo se puede [descargar](https://github.com/TDAxis/TDAxis/releases) en los assets del pre-release "AL Compatible". 
+El Demo se puede [descargar](https://github.com/TDAxis/TDAxis/releases) en los assets del pre-release "AL Compatible", y el tutorial para ejecutarlo en el [Notion](https://www.notion.so/matmac945/Demo-V0-0-2-f4489cc0ae654861ae4632402ba46395) en la página de demos. 
 
 #### A continuación se presentan links a la documentación del proyecto.
 * [Notion](./notion.html).
