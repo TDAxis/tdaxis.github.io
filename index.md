@@ -15,7 +15,7 @@ Nace como producto del desarrollo del proyecto _Generación y Control de Conteni
 * [YouTube](./youtube.html).
 * [GitHub](./github.html).
 
-Un agradecimiento a [Jose Ricardo Zapata](https://github.com/joserzapata), a todas las personas que nos ayudaron en la realizacion de este proyecto y en especial a [Juan F. Franco](https://github.com/juanferfranco), nuestro asesor, por habernos guiado a lo largo de todo el proceso y toda nuestra carrera universitaria.
+Un agradecimiento a [Jose Ricardo Zapata](https://github.com/joserzapata), a todas las personas que nos ayudaron en la realización de este proyecto y en especial a [Juan F. Franco](https://github.com/juanferfranco), nuestro asesor, por habernos guiado a lo largo de todo el proceso y toda nuestra carrera universitaria.
 
 
 Todo el contenido mencionado aquí fue desarrollado por [Matías Macías Gómez](https://github.com/Matmac945) y [Simón Pineda Agudelo](https://github.com/skailuxspa), y en caso contrario los creditos fueron dados a su respectivo dueño.
