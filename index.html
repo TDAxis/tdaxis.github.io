@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TDAxis</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script defer src="https://kit.fontawesome.com/ebb858355d.js" crossorigin="anonymous"></script>
+    <style>
+      .center {
+        display: flex;
+        justify-content: center;
+        /* text-align: center; */
+        /* align-items: center; */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav class="navbar is-transparent is-fixed-top">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+        </a>
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="https://bulma.io/">
+            Home
+          </a>
+          <a class="navbar-item" href="https://bulma.io/">
+            Overview
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="">
+              Docs
+            </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="">
+                Overview
+              </a>
+              <a class="navbar-item" href="">
+                Layout
+              </a>
+              <a class="navbar-item" href="">
+                Elements
+              </a>
+              <a class="navbar-item" href="">
+                Components
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="field is-grouped">
+              <p class="control">
+                <a class="bd-tw-button button" data-social-network="Github" target="_blank" href="#">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                </a>
+              </p>
+              <p class="control">
+                <a class="button is-primary" href="#">
+                  <span class="icon">
+                    <i class="fas fa-download"></i>
+                  </span>
+                  <span>Download</span>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  <!-- ... -->
+
+  <section class="section has-background-light">
+    <div class="container">
+      <h1 class="title center">
+        Genera y controla contenido audiovisual con los movimientos del cuerpo
+      </h1>
+      <p class="is-size-5">
+       <strong>TDAxis</strong> es un módulo para <a href="https://derivative.ca/">TouchDesigner</a> 
+        que permite recibir y procesar datos de un sistema de motion capture para ser 
+        utilizados en la creación y generacion de contenidos audiovisuales en tiempo real.
+        <br></br>
+        TDAxis es un proyecto opensource y todo su código esta disponible en <a href="#">Github</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Software used -->
+  <section class="section">
+    <div class="container">
+      <h1 class="title center">Tecnologías</h1>
+      <div class="columns">
+        <div class="column">
+          <article class="media notification is-info">
+            <figure class="media-left">
+              <span class="icon has-text-success">
+                <i class="fas fa-photo-video has-text-white"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-size-4">TouchDesigner...? </h1>
+                <p class="is-size-5">
+                  Es un lenguaje de programacion visual y mediacenter dedicado a la produccion de 
+                  graficos en tiempo real.
+                  Se escogio este framework ya que es una herramienta pensada diseñada para este 
+                  tipo de flujos de trabajo
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="column">
+          <article class="media notification is-info">
+            <figure class="media-left">
+              <span class="icon has-text-success">
+                <i class="fas fa-music has-text-white is-size-4"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-size-4">
+                  Ableton Live...?
+                </h1>
+                <p class="is-size-5">
+                  Es un DAW (digital audio workstation) con un enfasis en el performance
+                  musical. Por esto y por el TDAbleton (protocolo de comunicación entre TouchDesigner 
+                  y ableton Live que permite controlar gran parte de los parametros de la sesion de ableton
+                  desde la interface de TouchDesigner) ofrecido por derivative se escogio
+                  esta herramienta para la parte musical/sonora del proyecto  
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="column">
+          <article class="media notification is-info">
+            <figure class="media-left">
+              <span class="icon has-text-success">
+                <i class="fas fa-child has-text-white is-size-3"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-size-4">Perception Neuron...?</h1>
+                <p class="is-size-5">
+                  Traje cinético de captura de movimientos, de bajo costo comparado con los sistemas
+                  ópticos
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Demo -->
+  <section class="section">
+    <div class="container">
+      <figure class="image is-16by9">
+        <iframe
+          class="has-ratio" width="640" height="360"
+          src="https://www.youtube.com/embed/iqZA_SVW4X4" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </figure>
+    </div>
+  </section>
+  <!-- Components -->
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+
+        <div class="column">
+          <article class="media notification is-warning">
+            <figure class="media-left">
+              <span class="icon has-text-success">
+                <i class="fas fa-network-wired has-text-black is-size-3"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-size-4">Conectividad</h1>
+                <p class="is-size-6">
+                  TDAxis esta diseñado para ser el hub central de conexciones del performance 
+                  Conectarlo y sincronizarlo con los otros programas es tan sencillo como conectar todos 
+                  los dispositivos a la misma red-WiFi, indicarle a TDAxis la ip de los otros equipos y 
+                  listo, estas listo para permitir a tu bailarin controlar las imagenes y los sonidos 
+                  de la puesta en escena.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="column">
+          <article class="media notification is-warning">
+            <figure class="media-left">
+              <span class="icon has-text-success">
+                <i class="fas fa-cubes has-text-black is-size-2"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-size-4">Modular</h1>
+                  <p class="is-size-6">
+                    TDAxis esta construido a partir de modulos independientes los cuales pueden ser
+                    utilizados en conjunto, o por separado dentro de diferentes tipos de intalaciones o
+                    performances 
+                  </p>
+                  <button class="button is-primary">componentes</button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="column">
+          <article class="media notification is-warning">
+            <figure class="media-left">
+              <span class="icon has-text-success">
+                <i class="fas fa-photo-video has-text-black is-size-3"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-size-4">No tienes un sistema de Mocap?</h1>
+                <h1 class="subtitle is-size-5 has-text-weight-semibold">No hay problema!</h1>
+                <p class="is-size-6">
+                   Como sabemos que el acceso a un traje de captura de movimientos,
+                   hemos recopilado y compartido todas las capturas obtenidas durante 
+                   el desarrollo del sistema. 
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>TDAxis</strong> by <a href="https://github.com/Matmac945">Matías Macías</a> & 
+        <a href="https://github.com/skailuxspa">Simon Pineda</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+    </div>
+  </footer>
+  </body>
+</html>
