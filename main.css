@@ -12728,4 +12728,12 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem;
 }
+
+.tabcontent {
+  display: none;
+}
+
+#AXN-Calculator-Client {
+  display: block;
+}
 /*# sourceMappingURL=main.css.map */

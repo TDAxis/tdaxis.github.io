@@ -31,7 +31,7 @@
               Get Started
             </a>
             <a class="navbar-item has-background-primary has-text-white" href="componentes.html">
-              Components
+              <strong>Components</strong>
             </a>
         </div>
       
@@ -66,27 +66,33 @@
       </div>
     </div>
   </nav>
-  <section class="section has-background-light">
+  <section class="section">
     <div class="container">
       <h1 class="title">
         Componentes
       </h1>
-      <p class="">
-        My first website with <strong>Bulma</strong>!
-      </p>
+      <p class="subtitle">Utiliza unicamente lo que realmente necesites</p>
     </div>
   </section>
   <section class="section">
     <div class="container">
-        <div class="tabs is-centered">
+        <div class="tabs is-boxed">
             <ul>
-              <li><a>AXN Calculator Client</a></li>
-              <li><a>AXN Motion Client</a></li>
-              <li><a>Ableton Mapping Module</a></li>
-              <li><a>Axis Mapping Module</a></li>
-              <li><a>Patch Input Module</a></li>
-              <li><a>Video Output Module</a></li>
+              <li class="tablinks is-active" onclick="openTab(event, 'AXN-Calculator-Client')"><a>AXN Calculator Client </a></li>
+              <li class="tablinks" onclick="openTab(event, 'AXN-Motion-Client')"><a>AXN Motion Client     </a></li>
+              <li class="tablinks" onclick="openTab(event, 'Ableton-Mapping-Module')"><a>Ableton Mapping Module</a></li>
+              <li class="tablinks" onclick="openTab(event, 'Axis-Mapping-Module')"><a>Axis Mapping Module   </a></li>
+              <li class="tablinks" onclick="openTab(event, 'Patch-Input-Module')"><a>Patch Input Module    </a></li>
+              <li class="tablinks" onclick="openTab(event, 'Video-Output-Module')"><a>Video Output Module   </a></li>
             </ul>
+        </div>
+        <div>
+          <div id="AXN-Calculator-Client" class="tabcontent has-background-primary">AXN Calculator Client </div>
+          <div id="AXN-Motion-Client"     class="tabcontent has-background-info"   >AXN Motion Client     </div>
+          <div id="Ableton-Mapping-Module"class="tabcontent has-background-light"  >Ableton Mapping Module</div>
+          <div  id="Axis-Mapping-Module"  class="tabcontent has-background-danger" >Axis Mapping Module   </div>
+          <div id="Patch-Input-Module"    class="tabcontent has-background-warning">Patch Input Module    </div>
+          <div id="Video-Output-Module"   class="tabcontent has-background-success">Video Output Module   </div>
         </div>
     </div>
   </section>
