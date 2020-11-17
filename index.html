@@ -4,82 +4,79 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TDAxis</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <script defer src="https://kit.fontawesome.com/ebb858355d.js" crossorigin="anonymous"></script>
-    <style>
-      .center {
-        display: flex;
-        justify-content: center;
-        /* text-align: center; */
-        /* align-items: center; */
-      }
-    </style>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> -->
   </head>
-  <body>
+  <body class="has-text-dark is-light">
     <!-- Nav Bar -->
-    <nav class="navbar is-transparent is-fixed-top">
-        <div class="container">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="index.html">
-            <img src="img/TDAxis_LOGO_5.png" alt="logo">
+    <nav class="navbar is-light is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img src="img/TDAxis_LOGO_5.png" alt="logo">
+        </a>
+        <a role="button" class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false" onclick="toggleBurger()">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="nav-menu" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item has-background-primary has-text-white" href="index.html">
+            Home
           </a>
-          <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+          <a class="navbar-item" href="get_started.html">
+              Get Started
+            </a>
+            <a class="navbar-item" href="componentes.html">
+              Components
+            </a>
         </div>
       
-        <div id="navbarExampleTransparentExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item has-background-primary has-text-white" href="index.html">
-              Home
-            </a>
-            <a class="navbar-item" href="get_started.html">
-                Get Started
-              </a>
-              <a class="navbar-item" href="componentes.html">
-                Components
-              </a>
-              <a class="navbar-item" href="componentes.html">
-                Academics
-              </a>
-          </div>
-        
-          <div class="navbar-end">
-            <div class="navbar-item">
-              <div class="field is-grouped">
-                <p class="control">
-                  <a class="bd-tw-button button" data-social-network="Github" target="_blank" href="https://github.com/TDAxis">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                  </a>
-                </p>
-                <p class="control">
-                  <a class="button is-primary" href="https://github.com/TDAxis/TDAxis/releases/tag/V0.0.2">
-                    <span class="icon">
-                      <i class="fas fa-download"></i>
-                    </span>
-                    <span>Download</span>
-                  </a>
-                </p>
-              </div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="field is-grouped">
+              <p class="control">
+                <a class="button has-text-centered" data-social-network="Notion" target="_blank" href="https://www.notion.so/Generaci-n-y-Control-de-Contenido-Audiovisual-Utilizando-TouchDesigner-Ableton-Live-y-los-Movimient-cc47f40a46ff41beb3adfa03ad5659f6">
+                  <span class="icon is-size-3">
+                    <img src="img/notion.svg" alt="Notion">
+                  </span>
+                </a>
+              </p>
+              <p class="control">
+                <a class="bd-tw-button button" data-social-network="Github" target="_blank" href="https://github.com/TDAxis">
+                  <span class="icon is-size-3">
+                    <i class="fab fa-github"></i>
+                  </span>
+                </a>
+              </p>
+              <p class="control">
+                <a class="button is-primary" href="https://github.com/TDAxis/TDAxis/releases/tag/V0.0.2">
+                  <span class="icon">
+                    <i class="fas fa-download"></i>
+                  </span>
+                  <span><strong>Download</strong></span>
+                </a>
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
   <!-- ... -->
 
   <section class="section">
     <div class="container">
-      <h1 class="title center">
+      <h1 class="title has-text-centered">
         Crea y transforma imagenes y sonidos con los movimientos de tu cuerpo
       </h1>
-      <p class="subtitle center">
-        Imagenes y sonidos que responden al los movimientos del cuerpo. 
-        Diseñado para la escalibilidad, gratis y opensource.
+      <p class="subtitle has-text-centered">
+        Imagenes y sonidos que responden a los movimientos del cuerpo. 
       </p>
     </div>
   </section>
@@ -101,18 +98,18 @@
   <section class="section">
     <div class="container">
       <div class="columns">
-
         <div class="column">
-          <article class="media notification is-warning">
-            <figure class="media-left">
-              <span class="icon has-text-success">
-                <i class="fas fa-network-wired has-text-black is-size-3"></i>
-              </span>
-            </figure>
+          <article class="media">
             <div class="media-content">
               <div class="content">
-                <h1 class="title is-size-4">Conectividad</h1>
-                <p class="is-size-6">
+                <br></br>
+                <figure class="media-center">
+                  <span class="icon has-text-success">
+                    <i class="fas fa-network-wired has-text-dark is-size-1"></i>
+                  </span>
+                </figure>
+                <h1 class="title is-size-4 has-text-centered has-text-dark">Conectividad</h1>
+                <p class="is-size-6 has-text-centered">
                   Diseñada con enfasis en la conectividad, TDAxis es construido para ser el 
                   centro de control del performance 
                 </p>
@@ -122,19 +119,20 @@
         </div>
 
         <div class="column">
-          <article class="media notification is-warning">
-            <figure class="media-left">
-              <span class="icon">
-                <i class="fas fa-cubes has-text-black is-size-2"></i>
-              </span>
-            </figure>
+          <article class="media">
             <div class="media-content">
               <div class="content">
-                <h1 class="title is-size-4">Modularidad</h1>
-                  <p class="is-size-6">
-                    Diseñado con una arquitectura modular para que cada usuario puede elegir cual es la mejor 
-                    manera de utilizarlo.
-                  </p>
+                <br></br>
+                <figure class="has-text-centered">
+                  <span class="icon">
+                    <i class="fas fa-cubes has-text-black is-size-1"></i>
+                  </span>
+                </figure>
+                <h1 class="title is-size-4 has-text-centered">Modular</h1>
+                <p class="is-size-6 has-text-centered">
+                  Diseñado con una arquitectura modular para que cada usuario puede elegir cual es la mejor 
+                  manera de utilizarlo.
+                </p>
               </div>
               <div>
                 <!-- <a class="button is-info" href="componentes.html">componentes</a> -->
@@ -144,17 +142,18 @@
         </div>
 
         <div class="column">
-          <article class="media notification is-warning">
-            <figure class="media-left">
-              <span class="icon">
-                <i class="fas fa-tools has-text-black is-size-3"></i>
-              </span>
-            </figure>
+          <article class="media">
             <div class="media-content">
               <div class="content">
-                <h1 class="title is-size-4">Flujo</h1>
-                  <p class="is-size-6">
-                    TDAxis para seguir un flujo de trabajo que agiliza el prototipado
+                <br></br>
+                <figure class="media-center">
+                  <span class="icon">
+                    <i class="fas fa-tools has-text-black is-size-1"></i>
+                  </span>
+                </figure>
+                <h1 class="title is-size-4 has-text-centered">Flujo</h1>
+                  <p class="is-size-6 has-text-centered">
+                    Flujo de trabajo que agiliza el prototipado
                     e invita a la experimentación tanto a desarrolladores como a artistas 
                   </p>
               </div>
@@ -163,18 +162,18 @@
         </div>
 
         <div class="column">
-          <article class="media notification is-warning">
-            <figure class="media-left">
-              <span class="icon">
-                <i class="fas fa-layer-group has-text-black is-size-3"></i>
-              </span>
-            </figure>
+          <article class="media">
             <div class="media-content">
               <div class="content">
-                <h1 class="title is-size-4">Escalabilidad</h1>
-                  <p class="is-size-6">
-                    Dada la naturaleza modular de TDAxis tiene una gran capacidad para escalar con los requerimientos 
-                    técnicos y artisticos del performance.
+                <br></br>
+                <figure class="media-center">
+                  <span class="icon">
+                    <i class="fas fa-layer-group has-text-black is-size-1"></i>
+                  </span>
+                </figure>
+                <h1 class="title is-size-4 has-text-centered">Escalabilidad</h1>
+                  <p class="is-size-6 has-text-centered">
+                    Crece contigo, utiliza o modifica lo que necesites basado en tus necesidades
                   </p>
               </div>
             </div>
@@ -183,20 +182,31 @@
       </div>
     </div>
   </section>
+  
+  <br></br>
 
+  <!-- MOCAP Repo -->
   <section class="section has has-background-light">
     <div class="column">
       <div class="container">
         <article class="media">
           <div class="media-content">
+            <h1 class="title">No tienes un sistema de Mocap?</h1>
+            <h1 class="subtitle is-size-4 has-text-weight-semibold has-text-primary">No hay problema!</h1>
             <div class="content">
-              <h1 class="title">No tienes un sistema de Mocap?</h1>
-              <h1 class="subtitle has-text-weight-semibold has-text-primary">No hay problema!</h1>
               <p>
-                Como sabemos que el acceso a un traje de captura de movimientos,
-                hemos recopilado y compartido todas las capturas obtenidas durante 
-                el desarrollo del sistema. 
+                Hemos recopilado y compartido todas las capturas de movimientos realizadas
+                durante el desarrollo del proyecto.
+                Puedes cargar las capturas de movimiento a 
+                <a href="https://neuronmocap.com/content/axis-neuron">Axis Neuron</a> y experimentar con diferentes
+                parametros o utilizarlo para introducir variaciones "aleatorias" a piezas audiovisuales ya creadas.
               </p>
+              <a class="bd-tw-button button is-dark is-outlined" href="https://github.com/TDAxis/MoCap" target="_blank">
+                <span class="icon">
+                  <i class="fas fa-download"></i>
+                </span>
+                <span>Descargar Capturas</span>   
+              </a>
             </div>
           </div>
           <div class="media-right">
@@ -209,13 +219,15 @@
     </div>
   </section>
 
+  <br></br>
+
   <!-- Software used -->
-  <section class="section">
+  <section class="section is-big">
     <div class="container">
-      <h1 class="title center">Tecnologías</h1>
+      <h1 class="title has-text-centered">Tecnologías</h1>
       <div class="columns">
         <div class="column">
-          <article class="media notification is-info">
+          <article class="media notification is-primary">
             <figure class="media-left">
               <span class="icon">
                 <i class="fas fa-photo-video has-text-white"></i>
@@ -225,17 +237,14 @@
               <div class="content">
                 <h1 class="title is-size-4">TouchDesigner...? </h1>
                 <p class="is-size-5">
-                  Es un lenguaje de programacion visual y mediacenter dedicado a la produccion de 
-                  graficos en tiempo real.
-                  Se escogio este framework ya que es una herramienta pensada diseñada para este 
-                  tipo de flujos de trabajo
+                  Potencia gráfica, conectividad, flexibilidad y multiplataforma.
                 </p>
               </div>
             </div>
           </article>
         </div>
         <div class="column">
-          <article class="media notification is-info">
+          <article class="media notification is-primary">
             <figure class="media-left">
               <span class="icon has-text-success">
                 <i class="fas fa-music has-text-white is-size-4"></i>
@@ -247,15 +256,14 @@
                   Ableton Live...?
                 </h1>
                 <p class="is-size-5">
-                  TDAxis ofrece conectividad directa con Ableton Live para el control y 
-                  la generacion del contenido sonoro y musical del performance
+                  Ableton Live para el sonido y la música de cada performance.
                 </p>
               </div>
             </div>
           </article>
         </div>
         <div class="column">
-          <article class="media notification is-info">
+          <article class="media notification is-primary">
             <figure class="media-left">
               <span class="icon has-text-success">
                 <i class="fas fa-child has-text-white is-size-3"></i>
@@ -265,8 +273,7 @@
               <div class="content">
                 <h1 class="title is-size-4">Perception Neuron...?</h1>
                 <p class="is-size-5">
-                  Traje cinético de captura de movimientos, de bajo costo comparado con los sistemas
-                  ópticos
+                  Traje cinético de captura de movimientos de bajo costo 
                 </p>
               </div>
             </div>
@@ -278,12 +285,48 @@
 
   <section class="section">
     <div class="container">
-      <h1 class="title">¿Cómo funciona?</h1>
+      <h1 class="title has-text-centered">¿Cómo funciona?</h1>
+      
       <div class="columns">
-
+        <div class="column">
+          <div class="content">
+          <p>
+            TDAxis es el producto del trabajo de Grado de Simon Pineda y Matías Macías para optar por el 
+            titulo de Ingenieros de Diseño en Entretenimiento Digital de la Universidad Pontificia Bolivariana
+            en Medellín, Colombia.
+            
+            Es un una serie de componentes de TouchDesigner diseñados para recibir procesar e interpretar datos provenientes
+            de un sistema de motion capture con el objetivo de utilizarlos como elementos de control y generación
+            en un entorno de arte generativo basado en datos. 
+            
+            TDAxis utiliza OSC para comunicarse entre los diferentes softwares por lo cual sus señales pueden ser 
+            recibidas y utilizadas en cualquier programa que reciba este tipo de datos.
+          </p>
+          <br>
+          <p>
+            si deseea leer mas sobre el proceso de diseño, la metodologia que se utilizo o leer el documento final
+            puede ir a la pagina de <a href="#">Notion</a> en la cual se realizo el seguimiento del proyecto o descargar el documento 
+            completo.
+          </p>
+        </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content has-text-centered">
+        <a class="button is-text" href="https://www.researchgate.net/publication/341565962_Generacion_y_Control_de_Contenido_Audiovisual_Utilizando_TouchDesigner_Ableton_Live_y_los_Movimientos_del_Cuerpo_a_Traves_del_Perception_Neuron" target="_blank">
+          <span class="icon">
+            <i class="fas fa-download"></i>
+          </span>
+          <p>
+            Descargar Trabajo de Grado 
+          </p>
+        </a>
+      </div>
       </div>
     </div>
   </section>
+
+
   <footer class="footer">
     <div class="content has-text-centered">
       <p>

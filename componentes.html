@@ -4,45 +4,50 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TDAxis</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="app.js"></script>
     <script defer src="https://kit.fontawesome.com/ebb858355d.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav class="navbar is-transparent is-fixed-top">
+    <nav class="navbar is-light is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
+        <a class="navbar-item" href="index.html">
           <img src="img/TDAxis_LOGO_5.png" alt="logo">
         </a>
-        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+        <a role="button" class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false" onclick="toggleBurger()">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
       </div>
     
-      <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div id="nav-menu" class="navbar-menu">
         <div class="navbar-start">
           <a class="navbar-item" href="index.html">
             Home
           </a>
           <a class="navbar-item" href="get_started.html">
-            Get Started
-          </a>
-          <a class="navbar-item has-background-primary has-text-white" href="componentes.html">
-            Components
-          </a>
-          <a class="navbar-item" href="academics.html">
-            Academics
-          </a>
+              Get Started
+            </a>
+            <a class="navbar-item has-background-primary has-text-white" href="componentes.html">
+              Components
+            </a>
         </div>
       
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="field is-grouped">
               <p class="control">
+                <a class="button has-text-centered" data-social-network="Notion" target="_blank" href="https://www.notion.so/Generaci-n-y-Control-de-Contenido-Audiovisual-Utilizando-TouchDesigner-Ableton-Live-y-los-Movimient-cc47f40a46ff41beb3adfa03ad5659f6">
+                  <span class="icon is-size-3">
+                    <img src="img/notion.svg" alt="Notion">
+                  </span>
+                </a>
+              </p>
+              <p class="control">
                 <a class="bd-tw-button button" data-social-network="Github" target="_blank" href="https://github.com/TDAxis">
-                  <span class="icon">
+                  <span class="icon is-size-3">
                     <i class="fab fa-github"></i>
                   </span>
                 </a>
@@ -52,7 +57,7 @@
                   <span class="icon">
                     <i class="fas fa-download"></i>
                   </span>
-                  <span>Download</span>
+                  <span><strong>Download</strong></span>
                 </a>
               </p>
             </div>
@@ -60,7 +65,7 @@
         </div>
       </div>
     </div>
-    </nav>
+  </nav>
   <section class="section has-background-light">
     <div class="container">
       <h1 class="title">
