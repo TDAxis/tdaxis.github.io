@@ -1,5 +1,5 @@
 # TDAxis Website
 
-Build with BULMA
+Build with BULMA, Animate.css & Animista
 
 

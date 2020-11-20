@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TDAxis</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="img/TDA LOGO.svg">
+    <link rel="stylesheet" href="node_modules/bulma-extensions/bulma-steps/dist/css/bulma-steps.min.css">
     <script src="app.js"></script>
     <script defer src="https://kit.fontawesome.com/ebb858355d.js" crossorigin="anonymous"></script>
   </head>
   <body>
+    <!-- NAV BAR -->
     <nav class="navbar is-light is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="container">
       <div class="navbar-brand">
@@ -65,16 +68,66 @@
         </div>
       </div>
     </div>
-  </nav>
+    </nav>
+  <!-- END NAV BAR -->
   <section class="section">
     <div class="container">
       <h1 class="title">
         Get started
       </h1>
-      <p>
-        <a href="https://github.com/TDAxis/TDAxis/releases/tag/V0.0.2" class="button is-primary is-medium" target="_blank"> <strong>Descarga TDAxis 0.0.2</strong></a>
-      </p>
     </div>
   </section>
+  <div class="container">
+    <div class="steps" id="stepsDemo">
+      <div class="step-item is-active">
+        <div class="step-marker">1</div>
+        <div class="step-details">
+          <p class="step-title">Descargar</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-marker ">2</div>
+        <div class="step-details">
+          <p class="step-title">Instalar</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-marker">3</div>
+        <div class="step-details">
+          <p class="step-title">Configurar</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-marker">4</div>
+        <div class="step-details">
+          <p class="step-title">Crear!</p>
+        </div>
+      </div>
+      <div class="steps-content">
+        <div class="step-content has-text-centered is-active">
+          <p>
+            <a href="https://github.com/TDAxis/TDAxis/releases/tag/V0.0.2" class="button is-primary is-medium" target="_blank"> <strong>Descarga TDAxis 0.0.2</strong></a>
+          </p>
+        </div>
+        <div class="step-content has-text-centered">
+          <h1 class="title">buena la rata 1</h1>
+        </div>
+        <div class="step-content has-text-centered">
+          <h1 class="title">buena la rata 2</h1>
+        </div>
+        <div class="step-content has-text-centered">
+          <h1 class="title is-4">Estas listo para crear musica e imagenes con los movimientos del cuerpo</h1>
+        </div>
+      </div>
+      <div class="steps-actions">
+        <div class="steps-action">
+          <a href="#" data-nav="previous" id="previous" class="button is-primary" onclick="prevStep()">Previous</a>
+        </div>
+        <div class="steps-action">
+          <a href="#" data-nav="next" id="next" class="button is-primary" onclick="nextStep(event)">Next</a>
+        </div>
+      </div>
+    </div>
+  </div>
   </body>
 </html>
