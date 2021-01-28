@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TDAxis</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="img/TDA LOGO.svg">
+    <script src="app.js"></script>
+    <script defer src="https://kit.fontawesome.com/ebb858355d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar is-light is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img src="img/TDAxis_LOGO_5.png" alt="logo">
+        </a>
+        <a role="button" class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false" onclick="toggleBurger()">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="nav-menu" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html">
+            Home
+          </a>
+          <a class="navbar-item has-background-primary has-text-white" href="componentes.html">
+            <strong>Components</strong>
+          </a>
+          <a class="navbar-item" href="get_started.html">
+            Get Started
+          </a>
+        </div>
+      
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="field is-grouped">
+              <p class="control">
+                <a class="button has-text-centered" data-social-network="Notion" target="_blank" href="https://www.notion.so/Generaci-n-y-Control-de-Contenido-Audiovisual-Utilizando-TouchDesigner-Ableton-Live-y-los-Movimient-cc47f40a46ff41beb3adfa03ad5659f6">
+                  <span class="icon is-size-3">
+                    <img src="img/notion.svg" alt="Notion">
+                  </span>
+                </a>
+              </p>
+              <p class="control">
+                <a class="bd-tw-button button" data-social-network="Github" target="_blank" href="https://github.com/TDAxis">
+                  <span class="icon is-size-3">
+                    <i class="fab fa-github"></i>
+                  </span>
+                </a>
+              </p>
+              <p class="control">
+                <a class="button is-primary" href="https://github.com/TDAxis/TDAxis/releases/tag/V0.0.2" target="_blank">
+                  <span class="icon">
+                    <i class="fas fa-download"></i>
+                  </span>
+                  <span><strong>Download</strong></span>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Componentes
+      </h1>
+      <p class="subtitle">Utiliza unicamente lo que realmente necesites</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+        <div class="tabs is-boxed">
+            <ul>
+              <li class="tablinks is-active" onclick="openTab(event, 'AXN-Calculator-Client')"><a>AXN Calculator Client </a></li>
+              <li class="tablinks" onclick="openTab(event, 'AXN-Motion-Client')"><a>AXN Motion Client     </a></li>
+              <li class="tablinks" onclick="openTab(event, 'Ableton-Mapping-Module')"><a>Ableton Mapping Module</a></li>
+              <li class="tablinks" onclick="openTab(event, 'Axis-Mapping-Module')"><a>Axis Mapping Module   </a></li>
+              <li class="tablinks" onclick="openTab(event, 'Patch-Input-Module')"><a>Patch Input Module    </a></li>
+              <li class="tablinks" onclick="openTab(event, 'Video-Output-Module')"><a>Video Output Module   </a></li>
+            </ul>
+        </div>
+        <div>
+          <div id="AXN-Calculator-Client" class="tabcontent has-background-primary">AXN Calculator Client </div>
+          <div id="AXN-Motion-Client"     class="tabcontent has-background-info"   >AXN Motion Client     </div>
+          <div id="Ableton-Mapping-Module"class="tabcontent has-background-light"  >Ableton Mapping Module</div>
+          <div  id="Axis-Mapping-Module"  class="tabcontent has-background-danger" >Axis Mapping Module   </div>
+          <div id="Patch-Input-Module"    class="tabcontent has-background-warning">Patch Input Module    </div>
+          <div id="Video-Output-Module"   class="tabcontent has-background-success">Video Output Module   </div>
+        </div>
+    </div>
+  </section>
+  </body>
+</html>

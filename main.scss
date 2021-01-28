@@ -1,0 +1,29 @@
+$primary: #19d9cf;
+$primary-invert:#fff;
+$secs:0.3s;
+$dark: #292929;
+$lightdark: #afafaf;
+$orange: #ffa500;
+$link: $dark;
+$dimensions: 16 24 32 48 64 96 128 200 230;
+@import "node_modules/bulma";
+@import "animations";
+@import 'node_modules/bulma-extensions/bulma-steps/dist/css/bulma-steps'
+
+// Adjustments
+.tabcontent{
+    display: none;
+}
+#AXN-Calculator-Client{
+    display: block;
+}
+.is-size-9{
+    size: 0.5rem;
+}
+.underlined{
+    text-decoration: underline;
+}
+
+
+
+  

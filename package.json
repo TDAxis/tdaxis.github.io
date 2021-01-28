@@ -1,0 +1,26 @@
+{
+  "name": "tdaxis.github.io",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/pages-themes/slate.svg?branch=master)](https://travis-ci.org/pages-themes/slate) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-slate.svg)](https://badge.fury.io/rb/jekyll-theme-slate)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TDAxis/tdaxis.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TDAxis/tdaxis.github.io/issues"
+  },
+  "homepage": "https://github.com/TDAxis/tdaxis.github.io#readme",
+  "dependencies": {
+    "@creativebulma/bulma-collapsible": "^1.0.4",
+    "animate.css": "^4.1.1",
+    "bulma": "^0.9.1",
+    "bulma-extensions": "^6.2.7",
+    "bulma-steps": "^2.2.1"
+  }
+}
