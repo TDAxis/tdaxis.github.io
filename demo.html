@@ -1,138 +1,143 @@
 <!DOCTYPE html>
 <html class="has-navbar-fixed-top">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>TDAxis</title>
-		<script
-			defer
-			src="https://kit.fontawesome.com/ebb858355d.js"
-			crossorigin="anonymous"
-		></script>
-		<script src="app.js"></script>
-		<link rel="stylesheet" href="main.css" />
-		<link rel="icon" href="img/TDA LOGO.svg" />
-		<link rel="stylesheet" href="node_modules/animate.css/animate.css" />
-		<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> -->
-	</head>
-	<body class="has-text-dark">
-		<!-- Nav Bar -->
-		<nav
-			class="navbar is-light is-fixed-top"
-			role="navigation"
-			aria-label="main navigation"
-		>
-			<div class="container">
-				<div class="navbar-brand">
-					<a class="navbar-item" href="index.html">
-						<img src="img/TDAxis_LOGO_5.png" alt="logo" />
-					</a>
-					<a
-						role="button"
-						class="navbar-burger"
-						id="burger"
-						aria-label="menu"
-						aria-expanded="false"
-						onclick="toggleBurger()"
-					>
-						<span aria-hidden="true"></span>
-						<span aria-hidden="true"></span>
-						<span aria-hidden="true"></span>
-					</a>
-				</div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TDAxis</title>
+    <script
+      defer
+      src="https://kit.fontawesome.com/ebb858355d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" href="img/TDA LOGO.svg" />
+    <link rel="stylesheet" href="node_modules/animate.css/animate.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> -->
+  </head>
+  <body class="has-text-dark">
+    <!-- Nav Bar -->
+    <nav
+      class="navbar is-light is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">
+            <img src="img/TDAxis_LOGO_5.png" alt="logo" />
+          </a>
+          <a
+            role="button"
+            class="navbar-burger"
+            id="burger"
+            aria-label="menu"
+            aria-expanded="false"
+            onclick="toggleBurger()"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
 
-				<div id="nav-menu" class="navbar-menu">
-					<div class="navbar-start">
-						<a class="navbar-item" href="index.html"> Inicio </a>
-						<a class="navbar-item" href="componentes.html"> Demo </a>
-						<!-- <a class="navbar-item" href="componentes.html"> Components </a> -->
-						<!-- <a class="navbar-item" href="get_started.html"> Get Started </a> -->
-					</div>
+        <div id="nav-menu" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="index.html"> Inicio </a>
+            <a class="navbar-item" href="componentes.html"> Demo </a>
+            <!-- <a class="navbar-item" href="componentes.html"> Components </a> -->
+            <!-- <a class="navbar-item" href="get_started.html"> Get Started </a> -->
+          </div>
 
-					<div class="navbar-end">
-						<div class="navbar-item">
-							<div class="field is-grouped">
-								<p class="control">
-									<a
-										class="button has-text-centered"
-										data-social-network="Notion"
-										target="_blank"
-										href="https://www.notion.so/Generaci-n-y-Control-de-Contenido-Audiovisual-Utilizando-TouchDesigner-Ableton-Live-y-los-Movimient-cc47f40a46ff41beb3adfa03ad5659f6"
-									>
-										<span class="icon is-size-3">
-											<img src="img/notion.svg" alt="Notion" />
-										</span>
-									</a>
-								</p>
-								<p class="control">
-									<a
-										class="bd-tw-button button"
-										data-social-network="Github"
-										target="_blank"
-										href="https://github.com/TDAxis"
-									>
-										<span class="icon is-size-3">
-											<i class="fab fa-github"></i>
-										</span>
-									</a>
-								</p>
-								<p class="control">
-									<a
-										class="button is-primary"
-										href="https://github.com/TDAxis/TDAxis/releases/tag/V0.0.2"
-										target="_blank"
-									>
-										<span class="icon">
-											<i class="fas fa-download"></i>
-										</span>
-										<span><strong>Descargar</strong></span>
-									</a>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</nav>
-		<!-- ... -->
-		<!-- Demo -->
-		<div class="container">
-			<figure class="image is-16by9">
-				<iframe
-					class="has-ratio"
-					width="640"
-					height="360"
-					src="https://www.youtube.com/embed/iqZA_SVW4X4"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen
-				>
-				</iframe>
-			</figure>
-		</div>
-		<footer class="footer">
-			<div class="content has-text-centered">
-				<p>
-					<strong>TDAxis</strong> by
-					<a class="underlined" href="https://github.com/Matmac945"
-						>Matías Macías</a
-					>
-					&
-					<a class="underlined" href="https://github.com/skailuxspa"
-						>Simon Pineda</a
-					>. The source code is licensed
-					<a
-						class="underlined"
-						href="http://opensource.org/licenses/mit-license.php"
-						>MIT</a
-					>. The website content is licensed
-					<a
-						class="underlined"
-						href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
-						>CC BY NC SA 4.0</a
-					>.
-				</p>
-			</div>
-		</footer>
-	</body>
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="field is-grouped">
+                <p class="control">
+                  <a
+                    class="button has-text-centered"
+                    data-social-network="Notion"
+                    target="_blank"
+                    href="https://www.notion.so/Generaci-n-y-Control-de-Contenido-Audiovisual-Utilizando-TouchDesigner-Ableton-Live-y-los-Movimient-cc47f40a46ff41beb3adfa03ad5659f6"
+                  >
+                    <span class="icon is-size-3">
+                      <img src="img/notion.svg" alt="Notion" />
+                    </span>
+                  </a>
+                </p>
+                <p class="control">
+                  <a
+                    class="bd-tw-button button"
+                    data-social-network="Github"
+                    target="_blank"
+                    href="https://github.com/TDAxis"
+                  >
+                    <span class="icon is-size-3">
+                      <i class="fab fa-github"></i>
+                    </span>
+                  </a>
+                </p>
+                <p class="control">
+                  <a
+                    class="button is-primary"
+                    href="https://github.com/TDAxis/TDAxis/releases/tag/V0.0.2"
+                    target="_blank"
+                  >
+                    <span class="icon">
+                      <i class="fas fa-download"></i>
+                    </span>
+                    <span><strong>Descargar</strong></span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ... -->
+    <!-- Demo -->
+    <div class="container">
+      <div class="columns">
+        <div class="column"></div>
+        <div class="column">
+          <figure class="image is-16by9">
+            <iframe
+              class="has-ratio"
+              width="640"
+              height="360"
+              src="https://www.youtube.com/embed/iqZA_SVW4X4"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            >
+            </iframe>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>TDAxis</strong> by
+          <a class="underlined" href="https://github.com/Matmac945"
+            >Matías Macías</a
+          >
+          &
+          <a class="underlined" href="https://github.com/skailuxspa"
+            >Simon Pineda</a
+          >. The source code is licensed
+          <a
+            class="underlined"
+            href="http://opensource.org/licenses/mit-license.php"
+            >MIT</a
+          >. The website content is licensed
+          <a
+            class="underlined"
+            href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+            >CC BY NC SA 4.0</a
+          >.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
